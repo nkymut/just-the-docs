@@ -161,7 +161,11 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 color_scheme: nil
 
 callouts_level: quiet # or loud
+
 callouts:
+  attention:
+    title: Attention
+    color: red
   highlight:
     color: yellow
   important:
@@ -172,7 +176,7 @@ callouts:
     color: green
   note:
     title: Note
-    color: purple
+    color: orange
   warning:
     title: Warning
     color: red
